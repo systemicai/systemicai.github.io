@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Systemic AI</title>
+  
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div style="width:15%;">
+		<img src="assets/logo.png" style="width: 100%; height: 100%; padding: 10px"/>
+	</div>
+	<div style="position: absolute; top: 0; right: 0;">
+		<h3 style="color:black; padding:5px; transform: translate(-20px,10px)"><a href='signin.html'>Log Out</a></h3>
+	</div>
+	
+	<div class = "wrapper">
+		<div class="upload-btn-wrapper">
+			<button class="btn">Upload a file</button>
+			<input type="file" name="myfile" />
+		</div>
+		<div class="upload-btn-wrapper">
+			<button class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style="cursor:pointer;background-color:grey; width: 200px;height:52px;border:2px solid white; color: white; padding:7px; font-size: 22px;">Verify</button>
+		</div>
+	</div>
+	<!-- Modal -->
+		  <div class="modal fade" id="myModal" role="dialog">
+			<div class="modal-dialog">
+			
+			  <!-- Modal content-->
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <button type="button" class="close" data-dismiss="modal">&times;</button>
+				  <h4 class="modal-title">Verification</h4>
+				</div>
+				<div class="modal-body">
+				  <p>The file has been uploaded to the server successfully.</p>
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			  </div>
+			  
+			</div>
+		  </div>
+	
+</body>
+
+</html>
